@@ -1,7 +1,10 @@
 import './hassleFree.css'
 
-export const HassleFree = () => {
+const HassleFree = () => {
   return (
     <div>HassleFree</div>
   )
 }
+
+
+export default HassleFree

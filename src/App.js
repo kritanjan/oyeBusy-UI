@@ -3,7 +3,7 @@ import Header from './containers/header/Header.jsx'
 import TrendingServices from './containers/trendingServices/TrendingServices.jsx'
 import SameDayServices from './containers/sameDayServices/SameDayServices.jsx'
 import SafeServices from './containers/safeServices/SafeServices.jsx'
-import PofessionalCleaning from './containers/ProfessionalCleaning copy/PofessionalCleaning';
+import PofessionalCleaning from './containers/professionalCleaning/PofessionalCleaning';
 import MostUsed from './containers/mostUsed/MostUsed.jsx'
 import Assured from './containers/assured/Assured.jsx'
 import TrendingServices2 from './containers/trendingServices--2/TrendingServices--2.jsx'

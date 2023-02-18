@@ -1,4 +1,4 @@
-import 'electricianServices.css'
+import './electricianServices.css'
 
 const ElectricianServices = () => {
   return (

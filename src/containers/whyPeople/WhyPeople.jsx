@@ -1,7 +1,10 @@
 import './whyPeople.css'
 
-export const WhyPeople = () => {
+const WhyPeople = () => {
   return (
     <div>WhyPeople</div>
   )
 }
+
+
+export default WhyPeople
