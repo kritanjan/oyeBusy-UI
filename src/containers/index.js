@@ -1,0 +1,9 @@
+export {default as Header} from './header/Header.jsx'
+export {default as TryTrending} from './tryTrending/TryTrending.jsx'
+export {default as SafeServices} from './safeServices/SafeServices';
+export {default as Assured} from './assured/Assured.jsx'
+export {default as WhyPeople} from './whyPeople/WhyPeople.jsx'
+export {default as Opinions} from './opinions/Opinions.jsx'
+export {default as ReferAnd} from './referAnd/ReferAnd.jsx'
+export {default as HassleFree} from './hassleFree/HassleFree.jsx'
+export {default as Footer} from './footer/Footer.jsx'

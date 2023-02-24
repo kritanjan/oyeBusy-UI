@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+a {
+  color: unset;
+}
+
+.section__padding {
+  padding: 2rem;
+}
+
+.section__margin {
+  margin: 2rem;
+}
+
+.icons{
+  height: 25px;
+  width: 25px;
+}
+
+@media screen and (max-width: 1040px) {
+  .section__padding {
+    padding: 2rem 1rem;
+  }
+  
+  .section__margin {
+    margin: 2rem 1rem;
+  }
+}

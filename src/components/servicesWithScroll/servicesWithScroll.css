@@ -1,0 +1,144 @@
+.obui__servicesWithScroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.obui__servicesWithScroll h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #025B5D;
+}
+
+.obui__servicesWithScroll p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+    padding-bottom: 2rem;
+}
+
+.obui__servicesWithScroll-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+    max-width: 98vw;
+    gap: 1rem;
+}
+
+.obui__servicesWithScroll-images::-webkit-scrollbar {
+    display: none;
+}
+
+
+.obui__servicesWithScroll-images_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.obui__servicesWithScroll-images_item div {
+    width: 278px;
+    height: 156px;
+    background: #531C1C;
+    border-radius: 10px;
+}
+
+.obui__servicesWithScroll-images_item h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.obui__servicesWithScroll-images_item p {
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+
+@media screen and (max-width: 1000px) {
+    .obui__servicesWithScroll h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .obui__servicesWithScroll p {
+        padding-bottom: 1rem;
+    }
+
+    .obui__servicesWithScroll {
+        gap: 0.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .obui__servicesWithScroll-images_item {
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .obui__servicesWithScroll h2 {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    .obui__servicesWithScroll p {
+        font-size: 15px;
+        line-height: 19px;
+        padding-bottom: 0.3rem;
+    }
+
+    .obui__servicesWithScroll-images_item h2 {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .obui__servicesWithScroll-images_item p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .obui__servicesWithScroll {
+        gap: 0.25rem;
+        margin-bottom: 2.5rem;
+
+    }
+
+    .obui__servicesWithScroll-images_item {
+        gap: 0.3rem;
+    }
+
+    .obui__servicesWithScroll-images_item div {
+        width: 240px;
+        height: 135px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .obui__servicesWithScroll h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .obui__servicesWithScroll-images_item div {
+        width: 200px;
+        height: 110px;
+    }
+}

@@ -1,0 +1,48 @@
+.obui__hassleFree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+}
+.obui__hassleFree-text {
+    max-width: 465px;
+}
+.obui__hassleFree-text p{
+    font-family: 'Montserrat';
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #000000;
+}
+@media screen and (max-width: 950px){
+    .obui__hassleFree-text p {
+    font-size: 25px;
+    line-height: 30px;
+}
+    .obui__hassleFree-text{
+        max-width: 300px;
+    }
+    .obui__hassleFree{gap: 6rem}
+}
+@media screen and (max-width: 600px){
+    .obui__hassleFree-text p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+}
+    .obui__hassleFree-text{
+        max-width: 160px;
+    }
+    .obui__hassleFree{
+        gap: 2rem;
+        position: relative;
+        bottom: 30px;
+    }
+    .obui__hassleFree img{
+        height: 80px;
+        width: 80px;
+    }
+}

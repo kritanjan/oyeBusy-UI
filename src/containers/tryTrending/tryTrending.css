@@ -1,0 +1,135 @@
+.obui__tryTrending{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #FBD268 0%, #F1BA29 100%);
+}
+.obui__tryTrending-bgimage{
+    width: 504px;
+    height: 376px;
+    background-position-x: 0 0;
+    overflow: visible;
+}
+.obui__tryTrending-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.obui__tryTrending-container h2{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 50px;
+line-height: 47px;
+text-align: center;
+letter-spacing: 0.175em;
+color: #000000;
+max-width: 940px;
+}
+.obui__lineicon{
+    width: 133.5px;
+    background-color:  #000000;
+    border-bottom: 2px solid #000000;
+}
+.obui__tryTrending-container div p{
+    font-family: 'Poppins';
+font-weight: 300;
+font-size: 33px;
+line-height: 31px;
+text-align: center;
+color: #000000;
+}
+.obui__tryTrending-container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 1.5rem 0;
+}
+.obui__tryTrending-container_book{
+    display: inline;
+    font-family: 'Mulish';
+font-weight: 800;
+font-size: 22px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #A90000;
+
+padding: 1rem;
+border: 1px solid #A90000;
+border-radius: 28px;
+}
+
+@media screen and (max-width: 1150px) {
+    .obui__tryTrending-container h2 {        
+    font-size: 35px;
+    line-height: 47px;
+    padding-bottom: 0.5rem;
+    }    
+    .obui__tryTrending-container div p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .obui__tryTrending-container_book {
+        font-size: 17px;
+        line-height: 16px;
+    }
+    .obui__lineicon {
+        width: 100px;
+        background-color: #000000;
+        border-bottom: 1px solid #000000;
+    }
+}
+@media screen and (max-width: 850px) {
+    .obui__lineicon{display: none;}
+    .obui__tryTrending-bgimage{
+        background-position-x: -30px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .obui__tryTrending-container h2 {        
+        font-size: 30px;
+        line-height: 38px;
+        }
+        .obui__tryTrending-bgimage{
+            background-position-x: -40px;
+        }
+}
+@media screen and (max-width: 650px) {
+    .obui__tryTrending-container h2 {        
+        font-size: 24px;
+        line-height: 26px;
+        padding-bottom: 0.3rem;
+        } 
+        .obui__tryTrending-container div p {
+            font-size: 20px;
+            line-height: 20px;
+        }
+.obui__tryTrending-container_book{
+    font-size: 16px;
+    line-height: 9px;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .obui__tryTrending-container h2 {        
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 0.2rem;
+        } 
+        .obui__tryTrending-container div p {
+            font-size: 14px;
+            line-height: 14px;
+        }
+.obui__tryTrending-container_book{
+    font-size: 10px;
+    line-height: 8px;
+}
+.obui__tryTrending-bgimage {
+    background-position-x: -48px;
+}
+}

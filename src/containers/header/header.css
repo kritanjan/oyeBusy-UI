@@ -1,0 +1,314 @@
+.obui__header-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    width: 100%;
+}
+
+.obui__header-container__cleanerPhoto {
+    width: 100%;
+    margin-bottom: 2rem;
+    background-image: url('../../assets/cosmetologist-cleaning-face-woman-beauty-salon.png');
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.obui__header-container__cleanerPhoto h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    max-width: 400px;
+
+    padding: 2rem 0.5rem;
+    color: #FFFFFF;
+}
+
+.obui__header-container__cleanerPhoto-input {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.obui__header-container__cleanerPhoto-input svg {
+    height: 20px;
+    width: 20px;
+}
+
+.obui__header-container__cleanerPhoto-input input {
+    border: none;
+
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+
+    color: #9A9A9A;
+}
+
+.obui__header-container__cleanerPhoto-examples {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+
+.obui__header-container__lookingfor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+    padding: 1rem 0;
+}
+
+.obui__header-container__lookingfor h2 {
+    justify-self: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #353535;
+}
+
+.obui__header-container__lookingfor-offer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.obui__header-container__lookingfor-offer section {
+    background-color: #E8625D;
+    color: #fff;
+    padding: 0.2rem 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.obui__header-container__lookingfor-offer p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
+.obui__header-container__lookingfor-categories {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.obui__header-container__lookingfor-categories__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.obui__header-container__lookingfor-categories__item-text {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+
+    padding: 0.7rem;
+    text-align: center;
+
+    color: #000000;
+}
+
+.obui__header-container__lookingfor-categories__item img {
+    height: 50px;
+    width: 50px;
+}
+
+.obui__header-container__lookingfor-categories__item--new {
+    padding: 0 0.3rem;
+    letter-spacing: 1px;
+    background: #E1EDFF;
+    position: relative;
+    top: -62px;
+    font-family: serif;
+    font-size: 13px;
+    font-weight: 900;
+
+    color: #6598FD;
+    border: 1px solid #6598FD;
+
+}
+
+.obui__header-container__lookingfor-offers {
+    display: none;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+
+    color: #025B5D;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1550px) {
+    .obui__header-container__lookingfor-offer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .obui__header-container {
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .obui__header-container__cleanerPhoto {
+        width: 100%;
+        background-image: none;
+    }
+
+    .obui__header-container__cleanerPhoto h2 {
+        color: #025B5D;
+    }
+
+    .obui__header-container__cleanerPhoto p {
+        color: #025B5D;
+    }
+
+    .obui__header-container__cleanerPhoto-input {
+        border: 1px solid #415859;
+        border-radius: 4px;
+        padding: 0.8rem
+    }
+
+    .obui__header-container__lookingfor-categories {
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .obui__header-container__cleanerPhoto h2 {
+        display: none;
+    }
+
+    .obui__header-container__cleanerPhoto-examples {
+        display: none;
+    }
+
+    .obui__header-container__cleanerPhoto-input {
+        width: 95%;
+        margin: 1rem 0 0 0;
+    }
+
+    .obui__header-container__lookingfor-categories {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .obui__header-container__lookingfor h2 {
+        display: none;
+    }
+
+    .obui__header-container__lookingfor {
+        flex-direction: column-reverse;
+    }
+
+    .obui__header-container__lookingfor-categories div {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 0.5rem 1rem;
+        margin: none;
+    }
+
+    .obui__header-container__lookingfor-categories {
+        grid-gap: 0px;
+        padding: 2px
+    }
+
+    .obui__header-container__cleanerPhoto {
+        margin-bottom: 0;
+
+    }
+
+    .obui__header-container__lookingfor-offers {
+        display: block;
+        padding: 0.5rem 1rem;
+        text-align: left;
+        width: 100vw;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .obui__header-container__lookingfor-categories__item img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .obui__header-container__lookingfor-carousel div div img {
+        max-width: 240px;
+        max-height: 120px
+    }
+
+    .obui__header-container__lookingfor-categories__item-text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .obui__header-container__lookingfor-categories__item--new {
+        font-size: 4px;
+        top: -45px;
+        padding: 0px 0.35rem;
+    }
+
+    .obui__header-container__cleanerPhoto-input input {
+        font-size: 17px;
+        line-height: 16px;
+    }
+
+    .obui__header-container__cleanerPhoto-input svg {
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .obui__header-container__lookingfor-categories div {
+        padding: 0.5rem
+    }
+}
+@media screen and (max-width: 400px) {
+    .obui__header-container__lookingfor-categories div {
+        padding: 0.3rem
+    }
+}

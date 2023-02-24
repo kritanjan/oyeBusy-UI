@@ -1,0 +1,101 @@
+###
+{
+    .obui__services-imageTemplate div{
+        margin: 3rem 0;
+        height: 170px;
+        width: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 5px 25px 3px rgba(57, 57, 57, 0.15);
+        border-radius: 18px;
+    }
+    .obui__services-imageTemplate div:hover{background: linear-gradient(48.55deg, #FFA500 -6.74%, #FFECCA 120.59%);}
+    .obui__services-imageTemplate div img{
+        position: relative;
+        bottom: 40px
+    }
+    
+    .obui__services-imageTemplate p{
+        position: relative;
+        bottom: 25px;
+        padding-bottom: 1.5rem;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    @media screen and (max-width: 1350px) {
+        .obui__services-imageTemplate p{
+            bottom: 25px;
+            padding-bottom: 1.5rem;
+            font-size: 17px;
+            line-height: 21px;
+        }
+        .obui__services-imageTemplate div{
+            margin: 2rem 0;
+            height: 150px;
+            width: 200px;
+        }   
+    }
+    @media screen and (max-width: 1050px) {
+        .obui__services-imageTemplate div{
+            height: 140px;
+            width: 170px;
+        }   
+    }
+    @media screen and (max-width: 930px) {
+        .obui__services-imageTemplate div{
+            margin: 2rem 0;
+            height: 120px;
+            width: 150px;
+        }   
+        .obui__services-imageTemplate div img{
+            height: 110px;
+            width: 110px;
+            bottom: 30px;
+        }
+    }
+    @media screen and (max-width: 850px) {
+        .obui__services-imageTemplate div{
+            margin: 2rem 0;
+            height: 150px;
+            width: 200px;
+        }
+        .obui__services-imageTemplate div img{
+            height: 142px;
+            width: 142px;
+            bottom: 30px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .obui__services-imageTemplate p{
+            font-size: 13px;
+            line-height: 17px;
+        }   
+    }
+    @media screen and (max-width: 486px) {
+        .obui__services-imageTemplate div{
+            height: 110px;
+            width: 142px;
+        }
+        .obui__services-imageTemplate div img{
+            height: 90px;
+            width: 90px;
+            bottom: 30px;
+        }
+    }
+}
+###
+
+
+{
+    <div>
+            <img src={image} alt={txt} />
+            <p>{txt}</p>
+        </div>
+}

@@ -1,0 +1,125 @@
+.obui__assured {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+    margin: 3rem 0;
+}
+
+.obui__assured h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-bottom: 3rem;
+    color: #3A3A3A;
+}
+
+.obui__assured-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 85rem;
+}
+
+.obui__assured-container_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.obui__assured-container_item img {
+    height: 75px;
+    width: 75px;
+}
+
+.obui__assured-container_item div h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 0.5rem;
+}
+
+.obui__assured-container_item div p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 19px;
+    color: #707070;
+}
+
+@media screen and (max-width: 1150px) {
+    .obui__assured-container_item div h2 {
+        font-size: 20px;
+        line-height: 20px;
+}
+.obui__assured h2 {
+    font-size: 35px;
+    line-height: 47px;
+    padding-bottom: 0.5rem;
+}
+.obui__assured-container_item div p {
+    font-size: 15px;
+    line-height: 16px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+    .obui__assured-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem
+    }
+    .obui__assured-container_item img {
+        height: 60px;
+        width: 60px;
+    }
+    .obui__assured {
+        background-color: #F7F7F7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .obui__assured h2 {
+        font-size: 20px;
+        line-height: 20px;
+        padding-bottom: 0;
+    }
+
+
+    .obui__assured-container_item img {
+        height: 50px;
+        width: 50px
+    }
+
+    .obui__assured-container_item div h2 {
+        font-size: 16.5448px;
+        line-height: 15px;
+    }
+
+    .obui__assured-container_item div p {
+        font-size: 11.2505px;
+        line-height: 14px;
+    }
+}

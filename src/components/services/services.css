@@ -1,0 +1,71 @@
+.obui__services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: center
+}
+
+.obui__services-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.obui__services-text h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+
+    color: #025B5D;
+}
+
+.obui__services-text p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+
+    color: #000000;
+
+}
+.obui__services-images{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem
+}
+
+@media screen and (max-width: 1550px)  {
+    .obui__services-images{
+        gap: 2rem
+    }
+}
+@media screen and (max-width: 1350px)  {
+    .obui__services-images{
+        gap: 1rem
+    }
+    .obui__services-text{
+        padding-top: 1rem;
+    }
+}
+@media screen and (max-width: 950px) {
+
+    .obui__services-images{
+        display: grid ;
+        grid-template-columns: auto auto ;
+    }
+}
+@media screen and (max-width: 700px) {
+    .obui__services-text p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .obui__services-text h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

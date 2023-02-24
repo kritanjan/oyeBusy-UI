@@ -1,0 +1,130 @@
+.obui__safeServices {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.obui__safeServices-container {
+    margin: 5rem 1rem;
+    background-color: #ECECEE;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    max-width: 952px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.obui__safeServices-container_text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+    gap: 2rem;
+}
+
+.obui__safeServices-container_text h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #025B5D;
+}
+
+.obui__safeServices-container_text-properties {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.obui__safeServices-container_text-properties div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.obui__safeServices-container_text-properties div p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.obui__safeServices-container_image img {
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+
+    .obui__safeServices-container_text-properties div p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .obui__safeServices-container_text h2 {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 38px;
+        color: #025B5D;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .obui__safeServices-container_text-properties div p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .obui__safeServices-container_text h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .obui__safeServices-container_text-properties {
+        gap: 0.7rem;
+    }
+
+    .obui__safeServices-container_text {
+        padding: 0 0 0 2.5rem;
+        gap: 1rem;
+    }
+
+    .obui__safeServices-container {
+        /* padding: 0.5rem 0; */
+        margin: 2.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .obui__safeServices-container {
+        /* padding: 1rem 0; */
+        margin: 1.5rem 0.5rem;
+    }
+
+    .obui__safeServices-container_text-properties div p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .obui__safeServices-container_text h2 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .obui__safeServices-container_text {
+        padding: 0 0 0 1.5rem;
+        gap: 0.5rem;
+    }
+    .obui__safeServices-container_text-properties {
+        gap: 0.4rem;
+    }
+    
+}

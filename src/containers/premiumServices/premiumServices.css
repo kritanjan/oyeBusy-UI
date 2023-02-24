@@ -1,0 +1,81 @@
+.obui__premiumServices {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+}
+
+.obui__premiumServices-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.obui__premiumServices-text h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #025B5D;
+}
+
+.obui__premiumServices-text p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.obui__premiumServices-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+.obui__premiumServices-container_item{
+    padding-left: 2rem;
+}
+
+.obui__premiumServices-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 1350px)  {
+    .obui__premiumServices-text h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    .obui__premiumServices-text p {
+        font-size: 16px;
+        line-height: 20px;
+}
+}
+@media screen and (max-width: 950px) {
+
+    .obui__premiumServices-text h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .obui__premiumServices-container_item {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 700px) {
+    .obui__premiumServices-text p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .obui__premiumServices-text h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

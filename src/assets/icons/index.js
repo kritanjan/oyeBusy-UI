@@ -1,0 +1,12 @@
+export {default as Disinfection} from './Disinfection.png'
+export {default as Salon} from './Category_Salon.png'
+export {default as Plumber} from './Category_Plumber.png'
+export {default as Packer} from './Category_Packer&Mover.png'
+export {default as Home} from './Category_Home_Appliance.png'
+export {default as Electrician} from './Category_Electrician.png'
+export {default as Cleaning} from './Category_Cleaning.png'
+export {default as cctv} from './Category_CCTV.png'
+export {default as Carpenter} from './Category_Carpenter.png'
+export {default as ac} from './Category_AC.png'
+export {default as Pest} from './Category_Pest_control.png'
+

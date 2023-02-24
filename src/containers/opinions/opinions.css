@@ -1,0 +1,90 @@
+.obui__opinions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem
+}
+.obui__opinions h2{
+    font-family: 'Montserrat';
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+color: #025B5D;
+}
+.obui__opinions-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    width: 97vw;
+    gap: 1rem;
+
+}
+.obui__opinions-container::-webkit-scrollbar{display: none;}
+
+.obui__opinions-container_item{
+    max-height: 200px;
+    box-shadow: 1px 20px 50px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    min-width: 300px;
+    padding: 1rem;
+    margin: 3rem
+}
+.obui__opinions-container_item h3{
+    font-family: 'Roboto';
+font-size: 14px;
+line-height: 16px;
+
+color: #025B5D;
+}
+
+.obui__opinions-container_item p{
+    font-family: 'Mulish';
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.02em;
+color: #000000;
+overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4; /* number of lines to show */
+           line-clamp: 4;
+   -webkit-box-orient: vertical;
+}
+.obui__opinions-container_item img{
+    height: 13px;
+    width: 17px;
+}
+
+@media screen and (max-width: 950px){
+.obui__opinions h2 {
+    font-size: 25px;
+    line-height: 30px;
+}
+.obui__opinions-container_item {
+    padding: 1rem;
+    margin: 2rem 1rem 1rem;
+}
+}
+
+@media screen and (max-width: 600px){
+    .obui__opinions-container_item {
+        padding: 0.8rem;
+        margin: 2rem 0.8rem 0.8rem;
+    }
+    .obui__opinions h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .obui__opinions-container_item p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

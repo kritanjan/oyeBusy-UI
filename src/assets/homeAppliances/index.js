@@ -1,0 +1,6 @@
+export {default as airc} from './airc.png'
+export {default as micro} from './micro.png'
+export {default as refridgerator} from './refridgerator.png'
+export {default as ro} from './ro.png'
+export {default as tv} from './tv.png'
+export {default as washing} from './washing.png'
